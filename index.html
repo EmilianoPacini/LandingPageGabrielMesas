@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Tables - Diseño Sin Límites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <div class="logo">INFINITY</div>
+            <button class="contact-btn" onclick="scrollToContact()">CONTACTO</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">COLECCIÓN · INFINITO</p>
+            <h1 class="hero-title">Diseño Sin<br>Límites</h1>
+            <div class="hero-image-container">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-08%20at%2020.08.03-bJhnqTxB4n3n6gdvYl4mdS2lDK8chi.jpeg" alt="Mesa Infinity con luces LED multicolor" class="hero-image">
+            </div>
+            <p class="scroll-indicator">DESLIZA PARA DESCUBRIR</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <h2 class="section-title">Obra de arte<br>funcional</h2>
+            <p class="about-text">
+                Transforma tu espacio con nuestras mesas de vidrio 
+                polarizado que crean un efecto de espejo infinito hipnotizante. 
+                Cada pieza combina tecnología LED avanzada con acabados de 
+                madera premium para crear una experiencia visual única.
+            </p>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="gallery">
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-08%20at%2020.08.03-bJhnqTxB4n3n6gdvYl4mdS2lDK8chi.jpeg" alt="Mesa con LED multicolor">
+                <div class="gallery-overlay">
+                    <h3>Modelo Spectrum</h3>
+                    <p>Multicolor LED</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-08%20at%2020.50.16-Ls68PIlkJB256jSVWrZIfop3AuQLFa.jpeg" alt="Mesa con LED azul cyan">
+                <div class="gallery-overlay">
+                    <h3>Modelo Cyan</h3>
+                    <p>Iluminación azul</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-content">
+            <h2 class="section-title">Características<br>únicas</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✦</div>
+                    <h3>Espejo Infinito</h3>
+                    <p>Espejos internos que crean un efecto de profundidad y reflejo infinito único</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">◈</div>
+                    <h3>Vidrio Polarizado</h3>
+                    <p>Cristal de alta calidad con polarización para máxima claridad visual</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">◆</div>
+                    <h3>Iluminación LED</h3>
+                    <p>Sistema de luces LED personalizables con múltiples colores y efectos</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">◇</div>
+                    <h3>Acabados Premium</h3>
+                    <p>Marcos de madera natural con acabados artesanales de alta gama</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3 class="stat-number">100%</h3>
+                <p class="stat-label">Artesanal</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">LED</h3>
+                <p class="stat-label">Tecnología</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">∞</h3>
+                <p class="stat-label">Efecto infinito</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">5★</h3>
+                <p class="stat-label">Calidad premium</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="cta-content">
+            <h2 class="cta-title">Trae el infinito<br>a tu espacio</h2>
+            <p class="cta-text">
+                Cada mesa es única y hecha a medida. Contáctanos para 
+                crear la pieza perfecta para tu hogar u oficina.
+            </p>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+                <input type="tel" placeholder="Tu teléfono" required>
+                <textarea placeholder="Cuéntanos sobre tu proyecto" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Solicitar información</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo">INFINITY</div>
+                <p>Diseño sin límites</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 Infinity Tables. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
