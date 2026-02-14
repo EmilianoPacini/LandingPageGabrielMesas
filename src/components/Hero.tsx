@@ -25,7 +25,7 @@ const Hero = () => {
     >
       {/* Background Video - Single Play */}
       <video
-        className="absolute inset-0 h-full w-full object-cover object-center opacity-80"
+        className="absolute inset-0 h-full w-full object-cover object-[55%_center] md:object-center opacity-80"
         src="/videos/AnimacionHero.mp4"
         autoPlay
         muted

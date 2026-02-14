@@ -75,7 +75,7 @@ const ScrollShowcase = () => {
             style={{ width: window.innerWidth >= 768 ? `${panels.length * 100}vw` : '100%' }}
         >
           {panels.map((panel) => (
-            <div key={panel.id} className="h-[100dvh] w-full md:w-screen flex flex-col md:flex-row items-center justify-center relative overflow-hidden shrinkage-0">
+            <div key={panel.id} className="min-h-[50vh] md:min-h-0 md:h-[100dvh] w-full md:w-screen flex flex-col md:flex-row items-center justify-center relative overflow-hidden shrinkage-0 py-12 md:py-0">
                  
                  {/* 1. Creative Background Layer */}
                  <div className="absolute inset-0 z-0">
@@ -89,7 +89,7 @@ const ScrollShowcase = () => {
                  </div>
 
                  {/* 2. Main Image */}
-                 <div className="relative z-10 w-full h-[50vh] md:h-full md:max-w-[80vw] flex items-end md:items-center justify-center p-4">
+                 <div className="relative z-10 w-full h-[40vh] md:h-full md:max-w-[80vw] flex items-end md:items-center justify-center p-4">
                     <img 
                         src={panel.img} 
                         alt={panel.title} 
@@ -99,7 +99,7 @@ const ScrollShowcase = () => {
                  </div>
                  
                  {/* 3. Text Box */}
-                 <div className="relative z-20 w-full md:absolute md:bottom-24 md:left-24 px-6 pb-20 md:pb-0 md:max-w-md flex justify-center md:justify-start">
+                 <div className="relative z-20 w-full md:absolute md:bottom-24 md:left-24 px-6 md:pb-0 md:max-w-md flex justify-center md:justify-start -mt-8 md:mt-0">
                     <div className={`backdrop-blur-xl border ${panel.borderColor} p-6 rounded-2xl shadow-xl ${panel.shadowColor} transition-all duration-300 hover:bg-black/60 group w-full max-w-xs md:max-w-none`}>
                         <h3 className="font-orbitron text-white text-xl md:text-2xl font-bold tracking-wide leading-relaxed group-hover:tracking-wider transition-all duration-300 text-center md:text-left">
                             {panel.title}

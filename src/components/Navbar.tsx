@@ -142,11 +142,12 @@ const Navbar = () => {
                         {['es', 'en', 'pt'].map((lang) => (
                             <button 
                                 key={lang}
-                                onClick={() => {
+                                onClick={(e) => {
+                                    e.stopPropagation();
                                     setLanguage(lang as any);
                                     // Optional: close menu on language switch or keep open? keeping open for now.
                                 }}
-                                className={`font-rajdhani text-lg font-bold transition-colors uppercase ${language === lang ? 'text-brand-cyan border-b-2 border-brand-cyan' : 'text-gray-500 hover:text-white'}`}
+                                className={`font-rajdhani text-lg font-bold transition-colors uppercase py-2 px-4 touch-auto ${language === lang ? 'text-brand-cyan border-b-2 border-brand-cyan' : 'text-gray-500 hover:text-white'}`}
                             >
                                 {lang}
                             </button>

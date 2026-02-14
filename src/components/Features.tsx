@@ -98,7 +98,7 @@ const Features = () => {
   }));
 
   return (
-    <section id="features" ref={containerRef} className="relative py-32 text-white overflow-hidden">
+    <section id="features" ref={containerRef} className="relative py-8 md:py-32 text-white overflow-hidden">
        {/* Ambient Glow */}
        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-cyan/5 blur-[120px] rounded-full pointer-events-none" />
 
@@ -125,7 +125,7 @@ const Features = () => {
        {/* Decorative Elements */}
        <div className="absolute top-10 right-10 flex flex-col items-end gap-2 opacity-50">
             <div className="w-1 h-20 bg-brand-cyan/20" />
-            <span className="text-[10px] font-orbitron text-brand-cyan">{t.features.sysActive}</span>
+
        </div>
     </section>
   );
