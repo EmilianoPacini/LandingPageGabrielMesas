@@ -35,7 +35,7 @@ const Hero = () => {
         onEnded={(e) => {
           e.currentTarget.pause();
         }}
-      />
+      />3
       
       {/* Gradient Overlay for Readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-transparent to-transparent pointer-events-none" />
