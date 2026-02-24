@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useState } from 'react';
+import { Suspense, lazy } from 'react';
 import { ReactLenis } from 'lenis/react';
 import Hero from './components/Hero';
 import AmbientBackground from './components/AmbientBackground';
@@ -25,17 +25,7 @@ const LoadingFallback = () => (
 );
 
 function App() {
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   const content = (
       <LanguageProvider>
@@ -73,8 +63,8 @@ function App() {
       </LanguageProvider>
   );
 
-  return isMobile ? content : (
-    <ReactLenis root options={{ lerp: 0.05 }}>
+  return (
+    <ReactLenis root options={{ lerp: 0.1, duration: 1.5, smoothWheel: true }}>
       {content}
     </ReactLenis>
   );

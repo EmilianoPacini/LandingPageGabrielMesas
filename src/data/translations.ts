@@ -57,7 +57,7 @@ export const translations = {
       title: "PREGUNTAS",
       subtitle: "FRECUENTES",
       list: [
-        { q: "¿Es resistente el vidrio?", a: "Utilizamos vidrio templado de 8mm, diseñado para soportar el uso diario como mesa de centro." },
+        { q: "¿Es resistente el vidrio?", a: "Utilizamos vidrio laminado de 8mm y 6mm, diseñado para soportar el uso diario como mesa de centro." },
         { q: "¿Cómo se alimenta?", a: "Se conecta a cualquier tomacorriente estándar de 110/220V. Incluye cable discreto de alta resistencia." },
         { q: "¿Puedo personalizar las luces?", a: "Sí, incluye control por App y control remoto. Millones de colores y modos rítmicos musicales." },
         { q: "¿Hacen envíos a todo el país?", a: "Realizamos envíos asegurados a toda Argentina." },
@@ -75,7 +75,7 @@ export const translations = {
     cta: {
         acquire: "ADQUIERE EL",
         infinite: "INFINITO",
-        limited: "Producción limitada. No te quedes sin la tuya.",
+        limited: "Únicos en Argentina.",
         preorder: "SOLICITAR PRESUPUESTO",
         secure: "PAGO SEGURO",
         whatsappMessage: "Hola, estoy interesado en presupuestar la mesa Studio Infinius Abyss Edition. Me gustaría recibir más información."
@@ -142,7 +142,7 @@ export const translations = {
       title: "FREQUENTLY ASKED",
       subtitle: "QUESTIONS",
       list: [
-        { q: "Is the glass durable?", a: "We use 8mm tempered glass, designed to withstand daily use as a coffee table." },
+        { q: "Is the glass durable?", a: "We use 8mm laminated glass, designed to withstand daily use as a coffee table." },
         { q: "How is it powered?", a: "Connects to any standard 110/220V outlet. Includes a discreet, high-durability cable." },
         { q: "Can I customize the lights?", a: "Yes, includes App and remote control. Millions of colors and music rhythmic modes." },
         { q: "Do you ship internationally?", a: "We ship insured within Argentina and internationally upon request." },
@@ -160,7 +160,7 @@ export const translations = {
     cta: {
         acquire: "ACQUIRE THE",
         infinite: "INFINITE",
-        limited: "Limited production run. Each unit is serialized and comes with a certificate of authenticity.",
+        limited: "Unique in Argentina.",
         preorder: "PRE-ORDER NOW",
         secure: "SECURE CHECKOUT // ENCRYPTED",
         whatsappMessage: "Hello, I am interested in getting a quote for the Studio Infinius Abyss Edition table. I would like to receive more information."
@@ -227,9 +227,9 @@ export const translations = {
       title: "PERGUNTAS",
       subtitle: "FREQUENTES",
       list: [
-        { q: "O vidro é resistente?", a: "Usamos vidro temperado de 8mm, projetado para suportar o uso diário como mesa de centro." },
+        { q: "O vidro é resistente?", a: "Usamos vidro laminado de 8mm, projetado para suportar o uso diário como mesa de centro." },
         { q: "Como é alimentado?", a: "Conecta-se a qualquer tomada padrão de 110/220V. Inclui cabo discreto de alta resistência." },
-        { q: "Posso personalizar as luzes?", a: "Sim, inclui controle via App e controle remoto. Milhões de cores e modos rítmicos musicais." },
+        { q: "Posso personalizar as luzes?", a: "Sim, inclui controle via App e controle remoto. Millones de colores e modos rítmicos musicais." },
         { q: "Fazem entregas internacionais?", a: "Realizamos envios com seguro em toda a Argentina e envios internacionais sob consulta." },
         { q: "Qual é o prazo de entrega?", a: "Por serem peças autorais, o tempo de produção é de 15 a 20 dias úteis." }
       ]
@@ -245,7 +245,7 @@ export const translations = {
     cta: {
         acquire: "ADQUIRA O",
         infinite: "INFINITO",
-        limited: "Produção limitada. Cada unidade é serializada e vem com um certificado de autenticidade.",
+        limited: "Único na Argentina.",
         preorder: "PRÉ-ENCOMENDA AGORA",
         secure: "PAGAMENTO SEGURO // CRIPTOGRAFADO",
         whatsappMessage: "Olá, estou interessado em orçar a mesa Studio Infinius Abyss Edition. Gostaria de receber mais informações."

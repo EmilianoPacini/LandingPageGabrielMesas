@@ -129,7 +129,11 @@ const Navbar = () => {
                                   e.preventDefault();
                                   setMobileMenuOpen(false);
                                   lenis?.start();
-                                  lenis?.scrollTo(item.href, { duration: 1.5 });
+                                  if (lenis) {
+                                    lenis.scrollTo(item.href, { duration: 1.5 });
+                                  } else {
+                                    document.querySelector(item.href)?.scrollIntoView({ behavior: 'smooth' });
+                                  }
                                 }}
                                 className="font-orbitron text-xl font-bold uppercase tracking-widest text-white hover:text-brand-cyan transition-colors text-center"
                             >

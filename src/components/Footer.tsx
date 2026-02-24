@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="bg-transparent py-16 text-white border-t border-white/10">
+    <footer id="contact" className="bg-transparent py-16 text-white border-t border-white/10">
       <div className="container mx-auto flex flex-col items-center justify-between px-4 md:flex-row">
         
         {/* Brand & Copyright */}
