@@ -22,8 +22,8 @@ export const translations = {
       sysActive: "ESTILO.PURO",
       list: [
          { title: "Efecto Instagrammable", description: "Creamos el escenario perfecto para que la identidad de tu marca se vuelva viral" },
-         { title: "Creación de una Zona Premium", description: "Podés crear un 'Sector VIP' donde el ticket promedio sea un 20% o 30% más alto simplemente por la exclusividad de la mesa" },
-         { title: "Patrocinios y Branding de Marcas", description: "La mesa es un espacio publicitario de alto impacto. Podés negociar con tus proveedores para que ellos financien parte de la mesa a cambio de poner su logo dentro del efecto" },
+         { title: "Creación de una Zona Premium", description: "Eleva tu ticket promedio gracias al valor percibido y  exclusividad de la mesa" },
+         { title: "Patrocinios y Branding de Marcas", description: "El activo más rentable de tu local. Generá publicidad de tu marca o la de tus proveedores dentro del infinito" },
          { title: "\"No estamos vendiendo una mesa común. Estamos vendiendo el fin de la monotonía en tu hogar. Con la Abyss Edition de Studio Infinius, llevás a tu casa una pieza de ingeniería numerada que transforma un rincón común en el centro de todas las conversaciones. Calidad de rascacielos, diseño de autor y una profundidad que no tiene límites.\"", description: "" }
       ]
     },
@@ -227,9 +227,9 @@ export const translations = {
       title: "PERGUNTAS",
       subtitle: "FREQUENTES",
       list: [
-        { q: "O vidro é resistente?", a: "Usamos vidro laminado de 8mm, projetado para suportar o uso diário como mesa de centro." },
+        { q: "O vidro é resistente?", a: "Usamos vidro laminado de 8mm e 6mm, projetado para suportar o uso diário como mesa de centro." },
         { q: "Como é alimentado?", a: "Conecta-se a qualquer tomada padrão de 110/220V. Inclui cabo discreto de alta resistência." },
-        { q: "Posso personalizar as luzes?", a: "Sim, inclui controle via App e controle remoto. Millones de colores e modos rítmicos musicais." },
+        { q: "Posso personalizar as luzes?", a: "Sim, inclui controle via App e controle remoto. Milhões de cores e modos rítmicos musicais." },
         { q: "Fazem entregas internacionais?", a: "Realizamos envios com seguro em toda a Argentina e envios internacionais sob consulta." },
         { q: "Qual é o prazo de entrega?", a: "Por serem peças autorais, o tempo de produção é de 15 a 20 dias úteis." }
       ]
