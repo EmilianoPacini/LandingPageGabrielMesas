@@ -21,7 +21,7 @@ export const translations = {
       capsTitle: "Experiencia Exclusiva",
       sysActive: "ESTILO.PURO",
       list: [
-         { title: "Efecto Instagrammable", description: "Esta mesa atrae nuevos clientes que van a venir solo para sacarse una foto con el efecto infinito." },
+         { title: "Efecto Instagrammable", description: "Creamos el escenario perfecto para que la identidad de tu marca se vuelva viral" },
          { title: "Creación de una Zona Premium", description: "Podés crear un 'Sector VIP' donde el ticket promedio sea un 20% o 30% más alto simplemente por la exclusividad de la mesa" },
          { title: "Patrocinios y Branding de Marcas", description: "La mesa es un espacio publicitario de alto impacto. Podés negociar con tus proveedores de bebidas para que ellos financien parte de la mesa a cambio de poner su logo dentro del efecto" },
          { title: "\"No estamos vendiendo una mesa común. Estamos vendiendo el fin de la monotonía en tu hogar. Con la Abyss Edition de Studio Infinius, llevás a tu casa una pieza de ingeniería numerada que transforma un rincón común en el centro de todas las conversaciones. Calidad de rascacielos, diseño de autor y una profundidad que no tiene límites.\"", description: "" }
@@ -32,7 +32,7 @@ export const translations = {
       subtitle: "TÉCNICAS",
       capsTitle: "Análisis Técnico",
       list: [
-        { title: "Vidrio Infinito", description: "Cristal laminado espejado de 8mm que produce una ilusión óptica impecable y profunda." },
+        { title: "Vidrio Infinito", description: "Cristal laminado espejado de 8mm y 6mm que produce una ilusión óptica impecable y profunda." },
         { title: "Neon Flex Inteligente", description: "Sistema lumínico programable que permite elegir entre modos estáticos minimalistas o efectos rítmicos que reaccionan al sonido ambiente." },
         { title: "Dimensiones", description: "Dimensiones personalizables, pensadas para cualquier espacio." },
         { title: "Base", description: "La base de la Abyss Edition está fabricada con madera de pino macizo seleccionado que garantiza una estabilidad dimensional superior para soportar el peso de la pieza." }
@@ -107,7 +107,7 @@ export const translations = {
       capsTitle: "Exclusive Experience",
       sysActive: "PURE.STYLE",
        list: [
-         { title: "Instagrammable Effect", description: "This table attracts new customers who will come just to take a photo with the infinity effect." },
+         { title: "Instagrammable Effect", description: "We create the perfect setting for your brand identity to go viral" },
          { title: "Creating a Premium Zone", description: "You can create a 'VIP Sector' where the average check is 20% or 30% higher simply because of the table's exclusivity." },
          { title: "Sponsorships and Brand Branding", description: "The table is a high-impact advertising space. You can negotiate with your beverage suppliers to have them finance part of the table in exchange for placing their logo inside the effect." },
          { title: "\"We're not selling a common table. We're selling the end of monotony in your home. With the Studio Infinius Abyss Edition, you bring home a numbered piece of engineering that transforms a common corner into the center of every conversation. Skyscraper quality, designer authorship, and depth without limits.\"", description: "" }
@@ -118,7 +118,7 @@ export const translations = {
       subtitle: "SPECS",
       capsTitle: "Blueprint Analysis",
        list: [
-        { title: "Infinity Glass", description: "Mirrored laminated 8mm glass that produces a deep, flawless optical illusion." },
+        { title: "Infinity Glass", description: "Mirrored laminated 8mm and 6mm glass that produces a deep, flawless optical illusion." },
         { title: "Smart Neon Flex", description: "Programmable lighting system allowing choice between minimalist static modes or rhythmic effects that react to ambient sound." },
         { title: "Dimensions", description: "Customizable dimensions, designed for any space." },
         { title: "Base", description: "The Abyss Edition base is crafted from selected solid pine wood, ensuring superior dimensional stability to support the piece's weight." }
@@ -192,7 +192,7 @@ export const translations = {
       capsTitle: "Experiência Exclusiva",
       sysActive: "ESTILO.PURO",
        list: [
-         { title: "Efeito Instagrammável", description: "Esta mesa atrai novos clientes que virão apenas para tirar uma foto com o efeito infinito." },
+         { title: "Efeito Instagrammável", description: "Criamos o cenário perfeito para que a identidade da sua marca se torne viral" },
          { title: "Criação de uma Zona Premium", description: "Você pode criar um 'Setor VIP' onde o ticket médio seja 20% ou 30% mais alto simplesmente pela exclusividade da mesa." },
          { title: "Patrocínios e Branding de Marcas", description: "A mesa é um espaço publicitário de alto impacto. Você pode negociar com seus fornecedores de bebidas para que eles financiem parte da mesa em troca de colocar seu logotipo dentro do efeito." },
          { title: "\"Não estamos vendendo uma mesa comum. Estamos vendendo o fim da monotonia em sua casa. Com a Abyss Edition da Studio Infinius, você leva para casa uma peça de engenharia numerada que transforma um canto comum no centro de todas as conversas. Qualidade de arranha-céu, design autoral e uma profundidade sem limites.\"", description: "" }
@@ -203,7 +203,7 @@ export const translations = {
       subtitle: "TÉCNICAS",
       capsTitle: "Análise Técnica",
         list: [
-        { title: "Vidro Infinito", description: "Vidro laminado espelhado de 8mm que produz uma ilusão de óptica impecável e profunda." },
+        { title: "Vidro Infinito", description: "Vidro laminado espelhado de 8mm e 6mm que produz uma ilusão de óptica impecável e profunda." },
         { title: "Neon Flex Inteligente", description: "Sistema de iluminação programável que permite escolher entre modos estáticos minimalistas ou efeitos rítmicos que reagem ao som ambiente." },
         { title: "Dimensões", description: "Dimensões personalizáveis, pensadas para qualquer espaço." },
         { title: "Base", description: "A base da Abyss Edition é fabricada com madeira de pinho maciço selecionado que garante estabilidade dimensional superior para suportar o peso da peça." }
