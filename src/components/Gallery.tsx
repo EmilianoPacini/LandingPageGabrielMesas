@@ -18,7 +18,7 @@ const Gallery = () => {
         <motion.div style={{ y }} className="mb-24 text-center">
             <span className="font-rajdhani text-brand-cyan uppercase tracking-[0.4em] text-sm font-semibold mb-4 block">{t.gallery.visualRecords}</span>
           <motion.h2 
-            className="font-orbitron text-4xl font-bold tracking-wider text-white md:text-6xl"
+            className="font-orbitron text-3xl font-bold tracking-wider text-white md:text-6xl"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}

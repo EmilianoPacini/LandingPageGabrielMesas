@@ -5,13 +5,10 @@ const CTA = () => {
     const { t } = useLanguage();
   return (
     <section id="contact" className="relative h-[80vh] flex items-center justify-center bg-deep-black overflow-hidden">
-        {/* Background Effects */}
-      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-brand-cyan/10 to-transparent" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#b026ff_0%,_transparent_50%)] opacity-20 blur-[100px]" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.h2 
-            className="font-orbitron text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight"
+            className="font-orbitron text-3xl md:text-7xl font-bold text-white mb-6 tracking-tight"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}

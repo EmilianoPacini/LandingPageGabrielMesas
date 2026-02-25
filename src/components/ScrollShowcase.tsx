@@ -77,16 +77,8 @@ const ScrollShowcase = () => {
           {panels.map((panel) => (
             <div key={panel.id} className="min-h-[50vh] md:min-h-0 md:h-[100dvh] w-full md:w-screen flex flex-col md:flex-row items-center justify-center relative overflow-hidden shrinkage-0 py-12 md:py-0">
                  
-                 {/* 1. Creative Background Layer */}
-                 <div className="absolute inset-0 z-0">
-                    <img 
-                        src={panel.img} 
-                        alt="Background Blur" 
-                        className="w-full h-full object-cover blur-3xl scale-110 opacity-40 brightness-75 saturate-150"
-                        loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/40" />
-                 </div>
+                 {/* Background Layer - Solid Dark */}
+                 <div className="absolute inset-0 z-0 bg-deep-black" />
 
                  {/* 2. Main Image */}
                  <div className="relative z-10 w-full h-[40vh] md:h-full md:max-w-[80vw] flex items-end md:items-center justify-center p-4">

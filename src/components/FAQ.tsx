@@ -24,7 +24,7 @@ const FAQ = () => {
                     viewport={{ once: true }}
                 >
                      <span className="font-rajdhani text-brand-cyan uppercase tracking-[0.4em] text-2xl font-semibold mb-4 block">{t.faq.title}</span>
-                    <h2 className="font-orbitron text-4xl font-bold text-white md:text-5xl">
+                    <h2 className="font-orbitron text-3xl font-bold text-white md:text-5xl">
                         {t.faq.subtitle}
                     </h2>
                 </motion.div>

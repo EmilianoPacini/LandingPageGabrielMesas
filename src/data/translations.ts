@@ -21,9 +21,9 @@ export const translations = {
       capsTitle: "Experiencia Exclusiva",
       sysActive: "ESTILO.PURO",
       list: [
-         { title: "Ilusión Óptica", description: "Apagada, tu mesa es un espejo negro impecable que aporta sobriedad y elegancia. Encendida, la tecnología de reflexión profunda crea una nitidez tan real que parece que podrías caer dentro, con la tranquilidad de que está diseñada para durar toda la vida." },
-         { title: "Profundidad Viva", description: "El diseño del Neon Flex genera un caos visual fascinante que nunca se ve igual desde dos ángulos distintos." },
-         { title: "Pulido Brillante y Pegado Profesional", description: "Cada borde ha sido tratado como una joya para que el tacto sea suave y seguro. El ensamble profesional garantiza una geometría perfecta: un túnel infinito que no se deforma ni desvía." },
+         { title: "Efecto Instagrammable", description: "Esta mesa atrae nuevos clientes que van a venir solo para sacarse una foto con el efecto infinito." },
+         { title: "Creación de una Zona Premium", description: "Podés crear un 'Sector VIP' donde el ticket promedio sea un 20% o 30% más alto simplemente por la exclusividad de la mesa" },
+         { title: "Patrocinios y Branding de Marcas", description: "La mesa es un espacio publicitario de alto impacto. Podés negociar con tus proveedores de bebidas para que ellos financien parte de la mesa a cambio de poner su logo dentro del efecto" },
          { title: "\"No estamos vendiendo una mesa común. Estamos vendiendo el fin de la monotonía en tu hogar. Con la Abyss Edition de Studio Infinius, llevás a tu casa una pieza de ingeniería numerada que transforma un rincón común en el centro de todas las conversaciones. Calidad de rascacielos, diseño de autor y una profundidad que no tiene límites.\"", description: "" }
       ]
     },
@@ -107,9 +107,9 @@ export const translations = {
       capsTitle: "Exclusive Experience",
       sysActive: "PURE.STYLE",
        list: [
-         { title: "Optical Illusion", description: "When off, your table is a flawless black mirror offering sobriety and elegance. When on, deep reflection technology creates a sharpness so real you feel you could fall in, with the peace of mind that it's designed to last a lifetime." },
-         { title: "Living Depth", description: "The Neon Flex design generates fascinating visual chaos that never looks the same from two different angles." },
-         { title: "Brilliant Polish & Professional Bonding", description: "Every edge has been treated like a jewel for a smooth, safe touch. Professional assembly guarantees perfect geometry: an infinite tunnel that never warps or deviates." },
+         { title: "Instagrammable Effect", description: "This table attracts new customers who will come just to take a photo with the infinity effect." },
+         { title: "Creating a Premium Zone", description: "You can create a 'VIP Sector' where the average check is 20% or 30% higher simply because of the table's exclusivity." },
+         { title: "Sponsorships and Brand Branding", description: "The table is a high-impact advertising space. You can negotiate with your beverage suppliers to have them finance part of the table in exchange for placing their logo inside the effect." },
          { title: "\"We're not selling a common table. We're selling the end of monotony in your home. With the Studio Infinius Abyss Edition, you bring home a numbered piece of engineering that transforms a common corner into the center of every conversation. Skyscraper quality, designer authorship, and depth without limits.\"", description: "" }
       ]
     },
@@ -192,9 +192,9 @@ export const translations = {
       capsTitle: "Experiência Exclusiva",
       sysActive: "ESTILO.PURO",
        list: [
-         { title: "Ilusão de Óptica", description: "Apagada, sua mesa é um espelho preto impecável que traz sobriedade e elegância. Acesa, a tecnologia de reflexão profunda cria uma nitidez tão real que parece que você poderia cair dentro, com a tranquilidade de que foi projetada para durar a vida toda." },
-         { title: "Profundidade Viva", description: "O design do Neon Flex gera um caos visual fascinante que nunca parece o mesmo de dois ângulos diferentes." },
-         { title: "Polimento Brilhante e Colagem Profissional", description: "Cada borda foi tratada como uma joia para um toque suave e seguro. A montagem profissional garante geometria perfeita: um túnel infinito que não deforma nem desvia." },
+         { title: "Efeito Instagrammável", description: "Esta mesa atrai novos clientes que virão apenas para tirar uma foto com o efeito infinito." },
+         { title: "Criação de uma Zona Premium", description: "Você pode criar um 'Setor VIP' onde o ticket médio seja 20% ou 30% mais alto simplesmente pela exclusividade da mesa." },
+         { title: "Patrocínios e Branding de Marcas", description: "A mesa é um espaço publicitário de alto impacto. Você pode negociar com seus fornecedores de bebidas para que eles financiem parte da mesa em troca de colocar seu logotipo dentro do efeito." },
          { title: "\"Não estamos vendendo uma mesa comum. Estamos vendendo o fim da monotonia em sua casa. Com a Abyss Edition da Studio Infinius, você leva para casa uma peça de engenharia numerada que transforma um canto comum no centro de todas as conversas. Qualidade de arranha-céu, design autoral e uma profundidade sem limites.\"", description: "" }
       ]
     },

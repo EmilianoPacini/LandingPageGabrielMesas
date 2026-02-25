@@ -44,7 +44,7 @@ const Hero = () => {
       {/* Content with Parallax & Fade */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
         <motion.div style={{ y, opacity }} className="relative">
-          <h1 className="mb-4 font-orbitron text-5xl font-bold tracking-wide text-white mix-blend-screen md:text-7xl lg:text-8xl">
+          <h1 className="mb-4 font-orbitron text-4xl font-bold tracking-wide text-white mix-blend-screen md:text-7xl lg:text-8xl">
             {t.hero.title}
           </h1>
           <motion.p 

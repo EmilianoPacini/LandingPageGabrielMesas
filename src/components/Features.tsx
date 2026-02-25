@@ -98,15 +98,13 @@ const Features = () => {
   }));
 
   return (
-    <section id="features" ref={containerRef} className="relative py-8 md:py-32 text-white overflow-hidden">
-       {/* Ambient Glow */}
-       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-cyan/5 blur-[120px] rounded-full pointer-events-none" />
+    <section id="features" ref={containerRef} className="relative py-8 md:py-32 text-white overflow-hidden bg-deep-black">
 
        {/* Section Header */}
        <motion.div style={{ y: headerY }} className="relative z-10 container mx-auto px-4 mb-20 text-center">
             <span className="font-rajdhani text-brand-cyan uppercase tracking-[0.4em] text-sm font-semibold mb-4 block">{t.features.capsTitle}</span>
             <motion.h2
-              className="font-orbitron text-5xl font-bold tracking-wider text-white md:text-7xl"
+              className="font-orbitron text-3xl font-bold tracking-wider text-white md:text-7xl"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}

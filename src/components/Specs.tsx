@@ -58,7 +58,7 @@ const Specs = () => {
          <motion.div style={{ y: headerY }} className="mb-20">
              <span className="font-rajdhani text-brand-cyan uppercase tracking-[0.4em] text-sm font-semibold mb-4 block">{t.specs.capsTitle}</span>
            <motion.h2
-             className="font-orbitron text-4xl font-bold tracking-wider text-white md:text-6xl"
+             className="font-orbitron text-2xl md:text-6xl font-bold tracking-wide md:tracking-wider text-white"
              initial={{ opacity: 0, y: 20 }}
              whileInView={{ opacity: 1, y: 0 }}
              transition={{ duration: 0.8 }}
